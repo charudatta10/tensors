@@ -1,2 +1,50 @@
-site_name: Tensors
+site_name: Tensor Tutorials
+
+pages:
+    - 'Introduction': 'index.md'
+    - 'Books': 'books.md'
+    - 'Articles': 'articles.md'
+    - 'Applications': 'applications.md'
+    - 'Software': 'software.md'
+    - 'Linear Algebra': 'linear-algebra.md'
+    - 'Multilinear Algebra': 'multilinear-algebra.md'
+    - 'Tensor Operations': 'operations.md'
+    - 'Tensor Decompositions': 'decompositions.md'
+    - 'Tensor Representations': 'representations.md'
+    - 'Numerical Aspects': 'numerical.md'
+    - 'Math Notation': 'notation.md'
+    - 'Contributing': 'contributing.md'
+    - 'About Me!': 'about.md'
+
 theme: 'material'
+
+extra:
+  palette:
+    primary: 'teal'
+    accent: 'green'
+    font:
+      text: 'Ubuntu'
+      code: 'Ubuntu Mono'
+repo_name: 'dariosena/tensors'
+repo_url: 'https://github.com/dariosena/tensors'
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - admonition
+  - footnotes
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
